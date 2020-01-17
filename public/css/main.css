@@ -1,0 +1,32 @@
+.center {
+	text-align: center;
+}
+
+td {
+	font-weight: bold;
+}
+
+.table {
+	margin: auto;
+	width: 10% !important; 
+}
+
+.bottom {
+	position: relative;
+}
+
+.mycard {
+    width: 5rem;
+    background-color: #2661A6;
+    color: white;
+}
+
+.stopwatch {
+    border: 5px solid #2661A6;
+    padding: 8px;
+    margin: 5px 5px 5px 30px;
+    background-color: #fff;
+    color: #2661A6;
+    font-weight: bold;
+    font-size: 1.3em;
+}

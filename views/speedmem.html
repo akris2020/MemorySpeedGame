@@ -1,0 +1,17 @@
+<table class="center"> 
+	<tbody>
+	<tr>
+	<% data.forEach(function(num, idx) { %>
+	<td>
+		<div class="card mycard">
+			<div class="card-body">
+				<h3 class="card-text"><%= num %></h3>
+			</div>
+		</div>
+	</td>
+		<% if ((idx + 1) % 5 == 0) { %>
+			</tr><tr>
+		<% } %>
+	<% }); %>
+	</tbody>
+</table>
